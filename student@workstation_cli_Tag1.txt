@@ -1,0 +1,31 @@
+[student@workstation ~]$ history 
+    1  exit
+    2  cat /proc/version 
+    3  top
+    4  clear
+    5  yum list lang*
+    6  env
+    7  ps -aef
+    8  ps
+    9  ps --tree
+   10  ps --help
+   11  ps --help l
+   12  ip address
+   13  git config --global credential.helper cache
+   14  lab-configure
+   15  git clone https://github.com/frseemann/DO180-apps
+   16  cd DO180-apps/
+   17  ll
+   18  git checkout -b testbranch
+   19  echo "DO180" > TEST 
+   20  git add .
+   21  git commit -m "DO180"
+   22  git push --set-upstream origin testbranch
+   23  echo "OCP4" > TEST
+   24  git add .
+   25  git commit -m "OCP4"
+   26  git push
+   27  head README.md 
+   28  cd ~
+   29  history 
+
